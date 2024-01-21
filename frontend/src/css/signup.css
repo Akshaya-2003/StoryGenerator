@@ -1,0 +1,111 @@
+/* Signup.css */
+
+.bg-secondary {
+    background-color: #f5f5f5; /* Light grey background */
+    height: 100vh; /* Set the container to cover the entire viewport height */
+    display: flex; /* Use flexbox for vertical alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Form container */
+.bg-white {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    max-width: 700px; /* Sets max width for larger screens */
+    width: 100%; /* Ensure the container takes full width */
+    text-align: center; /* Center align the inside elements */
+    padding: 30px;
+    border-radius: 10px;
+    ;
+}
+/* Form heading */
+.heybo {
+    color: #333; /* Dark grey color */
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #3498db; /* Change the background color to your desired color */
+    color: #fff; /* Change the text color to your desired color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 20px; /* Adjust the border-radius to control the curve */
+    display: block; /* Change to block to make it span the entire width */
+    width: 100%; /* Set the width to 100% to span the parent container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+
+/* Form element styling */
+.form-control {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px 15px; /* Padding inside the input fields */
+    margin-bottom: 15px; /* Space between form elements */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f1f1f1; /* Medium grey color */
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px; /* Larger font size for better readability */
+    font-weight: 500; /* Medium font weight */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Register button */
+.btn-success {
+    background-color: #3498db; /* Green background */
+    color: white;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #3498db; /* Slightly darker green on hover */
+}
+
+/* Login button */
+.btn-default {
+    background-color: #f8f9fa; /* Very light grey background */
+    color: #333; /* Dark grey color */
+    border-color: #ddd; /* Light grey border */
+}
+
+.btn-default:hover {
+    background-color: #e2e6ea; /* Slightly darker background on hover */
+}
+
+/* Additional spacing */
+.mb-3 {
+    
+    color: #fff;
+    padding: 10px;
+    
+}
+.yolo {
+    background-image: url('login.png'); /* Replace with your image URL */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: Fix the background image */
+    /* Other background properties can be added here */
+  }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .bg-secondary {
+        height: auto; /* Remove fixed height for smaller screens */
+    }
+    .bg-white {
+        width: 90%; /* Full width on smaller screens */
+        margin: 20px auto; /* Center align */
+    }
+}
